@@ -1,4 +1,4 @@
 .env
 *.json
 venv/
-*.txt
+reponse.txt
