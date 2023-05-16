@@ -20,7 +20,7 @@ Ce projet vise à automatiser le processus de rédaction de lettres de motivatio
 
 ## Fonctionnalité
 
-- Récupération des informations du profil LinkedIn via son URL
+- Récupération des informations du profil LinkedIn via un json exporté
 - Utilisation de l'API OpenAI GPT-3.5 Turbo pour générer des textes
 - Génération d'une lettre de motivation personnalisée en se basant sur l'annonce d'emploi et les informations du profil
 
