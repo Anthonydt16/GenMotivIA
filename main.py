@@ -1,4 +1,3 @@
-import GenMotivAI
 from GenMotivAI.ChatGPT import ChatGPT
 from GenMotivAI.Scrapping import Scrapping
 import os
