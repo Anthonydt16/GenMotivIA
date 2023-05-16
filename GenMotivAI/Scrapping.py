@@ -5,6 +5,10 @@ import urllib as urllib
 import json
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 class Scrapping:
     """
     Scrapping class
@@ -46,7 +50,7 @@ class Scrapping:
 
     def getprofileLinkdin(self):
         ##charger le fichier json
-        with open('Anthony_Douat.json') as f:
+        with open(os.getenv('PROFILE')) as f:
             self.profileLinkdin = json.loads(f.read().encode('utf-8').decode('utf-8-sig'))
 
 

@@ -31,13 +31,13 @@ Ce projet vise à automatiser le processus de rédaction de lettres de motivatio
 ```bash
 pip install -r requirements.txt
 ```
- - Assurez-vous d'avoir une clé d'API OpenAI valide et mettez-la dans un fichier .env.
+ - Assurez-vous d'avoir une clé d'API OpenAI valide et mettez-la dans un fichier .env sous le nom de : "API_KEY"
 
  - Exécutez le script principal avec python main.py.
 
  - Ensuite Installer l'extension 
  "JSON Resume Exporter"
- Pour pouvoir exporter sont profile linkedin en json ensuite on l'enregistre à la racine et on l'indique dans le .env sous le nom de : "profile"
+ Pour pouvoir exporter sont profile linkedin en json ensuite on l'enregistre à la racine et on l'indique dans le .env sous le nom de : "PROFILE"
 
 
 
