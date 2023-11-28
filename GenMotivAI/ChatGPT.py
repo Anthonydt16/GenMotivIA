@@ -1,4 +1,5 @@
 import openai
+import os
 class ChatGPT:
     """
     This class is used to chat with the GPT-3.5 API
