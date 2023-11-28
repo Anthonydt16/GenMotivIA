@@ -2,3 +2,5 @@
 *.json
 venv/
 reponse.txt
+__pycache__/
+
