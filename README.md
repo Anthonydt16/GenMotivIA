@@ -37,9 +37,4 @@ pip install -r requirements.txt
 
  - Ensuite Installer l'extension 
  "JSON Resume Exporter"
- Pour pouvoir exporter sont profile linkedin en json ensuite on l'enregistre à la racine et on l'indique dans le .env sous le nom de : "PROFILE"
-
-
-
-
-    
+ Pour pouvoir exporter sont profile linkedin en json ensuite on l'enregistre à la racine et on l'indique dans le .env sous le nom de : "PROFILE"    
